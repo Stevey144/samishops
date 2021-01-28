@@ -1,0 +1,248 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    width:100%;
+    margin:0;
+    height:700px;
+    background-color: #eee;
+}
+
+.header{
+    width:100%;
+    height:80px;
+    background-color: white;
+
+}
+
+.header .head{
+    width:480px;
+    height:80px;
+    margin-left:580px;
+   
+ 
+}
+.nav{
+    width:100%;
+    text-align:center;
+    background-color:#124;
+    padding:20px;
+   
+}
+.nav ul{
+    margin-top:0%;
+    margin-bottom:0%;
+}
+.nav ul a{
+    color:white;
+    margin:20px;
+    font-size:25px;
+    text-decoration: none;
+    font-family: cursive;
+}
+.nav ul a:hover{
+    background-color: brown;
+    color:white;
+}
+
+.slider{
+    width:100%;
+    height:500px;
+}
+.slider img{
+    width:100%;
+    height:450px;
+}
+#para{
+    width:100%;
+    text-align:center;
+    font-family: cursive;
+    margin:0;
+
+}
+#para{
+    animation-name: para;
+    animation-duration: 1s;
+    animation-delay: 2s;
+    animation-iteration-count:infinite;
+    animation-play-state: running;
+}
+
+@keyframes para{
+0%{color:blue;}
+25%{colo:darkcyan;}
+30%{color:red;}
+35%{color:yellow;}
+40%{color:brown;}
+45%{color:black;}
+60%{color:green;}
+70%{color:maroon;}
+80%{color:rgb(41, 0, 128);}
+90%{color:rgb(128, 0, 21);}
+1000%{color:rgb(0, 128, 6);}
+
+
+
+
+
+    
+}
+#para h4{
+    font-size:30px;
+    margin:0;
+}
+.about_us p{
+    font-size:25px;
+    font-family: cursive;
+    text-align:justify;
+}
+.img{
+    width:100%;
+    height:300px;
+    margin-bottom: 400px;
+  
+}
+.img img{
+    width:32%;
+    height:300px;
+    margin:4px;
+    padding-left:20px;
+ 
+}
+.footer{
+    width:100%;
+    height: 100px;
+    background-color: orange;
+    padding:3px;
+    font-size: 40px;
+    text-align:center;
+}
+
+
+
+.con{
+    width:1000px;
+    margin:auto;
+    height: 800px;
+    background-color:#fff;
+}
+
+.pro{
+    text-align: center;
+    background-color: orange;
+    width:500px;
+    margin:auto;
+    padding:10px;
+    border-radius: 10px;
+    font-size: 30px;
+}
+.ourimg{
+    width: 30%;
+    height: 280px;
+    display: inline-block;
+    background-color: darkgray;
+    margin: 10px 0px 0px 23px;
+}
+.ourimg img{
+   width: 100%;
+   height: 200px;
+}
+.ourimg h6{
+     text-align: center;
+     font-family: cursive;
+     margin: 0;
+}
+.ourimg button{
+  margin: 4px 110px;
+  border-radius: 7px;
+
+}
+.ourimg button:hover{
+   background-color: black;
+   color: white;
+}
+.ourback{
+    width:100%;
+    margin:50px;
+    border-radius: 20px;
+}
+@media only screen and (min-width:350px) and (max-width:800px){
+   
+    body{
+        width:100%;
+        margin:0;
+        background-color: #eee;
+        height:700px;
+    }
+
+    .header{
+        width:100%;
+        height:80px;
+    }
+    
+    .header .head{
+        width:480px;
+        height:80px;
+        margin-left:0.2em;
+       
+     
+    }
+    .nav{
+        width:100%;
+        text-align:center;
+        background-color:#124;
+        padding:5px;
+        font-size: 5px;
+       
+    }
+
+    .nav ul a{
+        color:white;
+        margin:10px;
+        font-size:20px;
+        text-decoration: none;
+        font-family: cursive;
+    }
+
+    
+
+     #para{
+        width:100%;
+        font-family: cursive;
+        text-align:center;
+
+     }
+     .about_us p{
+         font-size: 20px;
+         padding:10px;
+     }
+     .img{
+        width:100%;
+        height:900px;
+        margin-bottom: 400px;
+      
+    }
+    .img img{
+        width:80%;
+        height:200px;
+        margin:4px;
+        padding:0px 0px 0px 70px;
+        display: block;
+     
+    }
+
+    footer{
+        width:100%;
+        height: 70px;
+        background-color: orange;
+        font-size: 17px;
+        text-align:center;
+        padding:24px;
+        font-family: courier;
+    }
+    
+
+   
+
+
+}
